@@ -1,0 +1,26 @@
+.form{
+    border: 1px solid #D9D9DB;
+    background-color: #F7F8FA;
+}
+.form:focus{
+    background-color: white;
+    outline: #b1b1c6 ;
+}
+.social-btn{
+    border: 1px solid #D9D9DB;
+}
+.registration-content{
+    width: 100%;
+}
+.registration-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .registration-img{
+        display: none;
+    }
+    .registration-content{
+        display: block!important;
+    }
+}
