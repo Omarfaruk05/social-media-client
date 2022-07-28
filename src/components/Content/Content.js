@@ -9,12 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faBriefcase, faCalendarDay, faLocationDot, faPen, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import { faEye } from '@fortawesome/free-regular-svg-icons';
 import "./Content.css"
-import Registration from '../Modal/Registration';
 
 const Content = () => {
     return (
         <div>
-            <Registration></Registration>
             <div class="row  mb-5">
                 <div class="col-12 col-sm-6 col-md-8">
                     <div className='border border-1 rounded my-2'>
@@ -202,6 +200,9 @@ const Content = () => {
                         <p className='ms-2 text-muted small'>Your location will help us serve better and extend a personalised experience.</p>
                     </div>
                 </div>
+             </div>
+             <div className='edit'>
+             <FontAwesomeIcon icon={faPen}/>
              </div>
         </div>
     );

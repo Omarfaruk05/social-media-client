@@ -1,7 +1,7 @@
 import React from 'react';
 import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import photo from '../../photos/signup.jpg'
+import photo from '../../photos/signup.png'
 
 
 const Login = () => {

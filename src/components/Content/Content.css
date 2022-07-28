@@ -1,6 +1,26 @@
-
+.edit{
+    display: none;
+    background-color: red;
+    width: fit-content;
+    padding: 13px 16px;
+    border-radius: 50%;
+    color: white;
+}
 @media only screen and (max-width: 600px) {
     #location{
         display: none!important;
     }
+    .edit{
+        display: block;
+        position: fixed;
+        margin-bottom: 20px;
+        bottom: 20px;
+        left: 320px;
+        background-color: red;
+        width: fit-content;
+        padding: 13px 16px;
+        border-radius: 50%;
+        color: white;
+    }
+
 }

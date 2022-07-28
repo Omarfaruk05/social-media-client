@@ -30,6 +30,7 @@ const NavComponent = () => {
                     </button></p>
                 </Navbar.Text>
                 </Navbar.Collapse>
+            <Registration></Registration>
         </Navbar>
     );
 };

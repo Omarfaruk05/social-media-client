@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import Login from './Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGoogle} from '@fortawesome/free-brands-svg-icons';
-import photo from '../../photos/signup.jpg'
+import photo from '../../photos/signup.png'
 import './Ragistration.css'
 
 const Registration = () => {
