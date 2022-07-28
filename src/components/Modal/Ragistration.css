@@ -24,3 +24,7 @@
         display: block!important;
     }
 }
+.modal-header{
+    background-color: #EFFFF4;
+    color: #008A45;
+}

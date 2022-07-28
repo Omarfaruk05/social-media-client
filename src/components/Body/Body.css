@@ -1,0 +1,15 @@
+.les-important{
+    display: block;
+}
+.more-important{
+    display: none!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .les-important{
+        display: none!important;
+    }
+    .more-important{
+        display: block!important;
+    }
+}

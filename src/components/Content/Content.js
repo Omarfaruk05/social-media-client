@@ -1,5 +1,7 @@
 import React from 'react';
-import Image1 from '../../photos/photo-1.jpg'
+import Image1 from '../../photos/photo-1.png'
+import Image2 from '../../photos/photo-2.png'
+import Image3 from '../../photos/photo-3.png'
 import Person from '../../photos/man1.jpg'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -7,15 +9,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faBriefcase, faCalendarDay, faLocationDot, faPen, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import { faEye } from '@fortawesome/free-regular-svg-icons';
 import "./Content.css"
+import Registration from '../Modal/Registration';
 
 const Content = () => {
     return (
         <div>
-            <div class="row no-gutters mb-5">
+            <Registration></Registration>
+            <div class="row  mb-5">
                 <div class="col-12 col-sm-6 col-md-8">
                     <div className='border border-1 rounded my-2'>
                         <div>
-                            <img className='img-fluid' src={Image1} alt="" />
+                            <img className='img-fluid w-100' src={Image1} alt="" />
                         </div>
                         <div className='p-2'>
                             <h5>Article</h5>
@@ -51,7 +55,7 @@ const Content = () => {
                     </div>
                     <div className='border border-1 rounded my-2'>
                         <div>
-                            <img className='img-fluid' src={Image1} alt="" />
+                            <img className='img-fluid w-100' src={Image2} alt="" />
                         </div>
                         <div className='p-2'>
                             <h5>
@@ -90,7 +94,7 @@ const Content = () => {
                     </div>
                     <div className='border border-1 rounded my-2'>
                         <div>
-                            <img className='img-fluid' src={Image1} alt="" />
+                            <img className='img-fluid w-100' src={Image3} alt="" />
                         </div>
                         <div className='p-2'>
                             <h5>
